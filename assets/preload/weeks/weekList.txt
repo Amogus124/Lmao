@@ -1,7 +1,5 @@
-tutorial
-week1
-week2
-week3
-week4
-week5
-week6
+anniversary_tutorial
+1anniversary
+2anniversary
+3anniversary
+4anniversary
