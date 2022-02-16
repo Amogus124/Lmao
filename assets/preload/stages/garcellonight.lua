@@ -1,9 +1,9 @@
 function onCreate()
 	-- background shit
-	makeLuaSprite('sans_bg', 'stages/garcellonight', -400, -160);
-	setScrollFactor('sans_bg', 0.7, 0.7);
+	makeLuaSprite('garcellonight', 'stages/garcellonight', -400, -160);
+	setScrollFactor('garcellonight', 0.7, 0.7);
 
-	addLuaSprite('sans_bg', false);
+	addLuaSprite('garcellonight', false);
 
 	close(true); --For performance reasons, close this script once the stage is fully loaded, as this script won't be used anymore after loading the stage
 end

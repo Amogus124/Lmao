@@ -1,9 +1,9 @@
 function onCreate()
 	-- background shit
-	makeLuaSprite('sans_bg', 'stages/bazinga', -400, -160);
-	setScrollFactor('sans_bg', 0.7, 0.7);
+	makeLuaSprite('bazinga', 'stages/bazinga', -400, -160);
+	setScrollFactor('bazinga', 0.7, 0.7);
 
-	addLuaSprite('sans_bg', false);
+	addLuaSprite('bazinga', false);
 
 	close(true); --For performance reasons, close this script once the stage is fully loaded, as this script won't be used anymore after loading the stage
 end
